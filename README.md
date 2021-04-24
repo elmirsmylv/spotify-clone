@@ -1,4 +1,4 @@
-# spotify-clone
+# Spotify-Clone
 
 # TODO
 - English version of the list
