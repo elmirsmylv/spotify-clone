@@ -2,9 +2,10 @@
   padding: 30px;
   border: 1px solid black;
   flex: 0.8;
-  height: 100vh;
+  height: 100%;
   color: white;
   background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  margin-bottom: 55px;
 }
 
 .body::-webkit-scrollbar {

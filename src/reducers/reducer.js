@@ -5,8 +5,9 @@ export const inititalState = {
   item: null,
   //REMOVE AFTER DEVELOPING
   //token:
-  //"BQBKI51wFWAIwPtuTBGJqF7odQOJxdvXOLoi5brsccUSD4aTpfAQ7okpbjc6P6iXmZPlBnHreOfKzqjomnZsgyXgXr5QUens-yL2aHWNNs4woBRSgmpSS53nfuDEj3IKZD-blBU65BBwueFT5MT5tS-nRjnI-gNKTfg4ZQk8-eh4dZop",
+  //"BQBYrF3mQmymNR2M2Ia1IZ20mXJlXTe_JrgyLeL3zjozw3ytmCSw9vW2EOvQhacvmqg2wOwuQxgsUi2rYJhUEbiIdJZv-LzbxGFUQcpxTi6qhC8EsaL89N2hhw17QgfVSH4PPlXFElmZGkRVIwOjBSo446imVdhhKbdK9AHnkuEC7TNt",
 };
+//elmir-spotify-clone.netlify.app/#access_token=BQBYrF3mQmymNR2M2Ia1IZ20mXJlXTe_JrgyLeL3zjozw3ytmCSw9vW2EOvQhacvmqg2wOwuQxgsUi2rYJhUEbiIdJZv-LzbxGFUQcpxTi6qhC8EsaL89N2hhw17QgfVSH4PPlXFElmZGkRVIwOjBSo446imVdhhKbdK9AHnkuEC7TNt&token_type=Bearer&expires_in=3600
 
 const reducer = (state = inititalState, action) => {
   switch (action.type) {
