@@ -1,7 +1,8 @@
 # Spotify-Clone
 
 # TODO
-- English version of the list
-- More genres
-- Actor/actress list.
+- Add Home Page
+- Add track play feature
+- Add different playlist clickable feature
+- ...
 
