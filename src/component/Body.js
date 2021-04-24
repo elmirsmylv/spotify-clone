@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useDataLayerValue } from "../DataLayer";
 import "../styles/Body.css";
 import Header from "./Header";
@@ -9,7 +9,6 @@ import SongRow from "./SongRow";
 
 function Body({ spotify }) {
   const [{ discover_weekly }, dispatch] = useDataLayerValue();
-  console.log(discover_weekly?.tracks.items);
   return (
     <div className="body">
       <Header spotify={spotify} />

@@ -18,6 +18,11 @@
 .header__left > input {
   border: none;
   width: 100%;
+  font-size: 13px;
+}
+
+.header__left > input:focus {
+  outline: none;
 }
 
 .header__right {

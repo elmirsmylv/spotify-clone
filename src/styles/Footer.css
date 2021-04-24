@@ -3,11 +3,12 @@
   justify-content: space-between;
   position: fixed;
   bottom: 0;
-  height: 65px;
+  height: 55px;
   width: 97%;
-  background-color: #282828;
+  background-color: #181818;
   padding: 20px;
   color: white;
+  border-top: 0.1px solid rgb(44, 43, 43);
 }
 
 .footer__left {
@@ -15,6 +16,10 @@
   display: flex;
   align-items: center;
   width: 300px;
+}
+
+.footer-left-right:hover {
+  opacity: 0.5;
 }
 
 .footer__albumLogo {
@@ -45,10 +50,12 @@
   max-width: 300px;
 }
 
-.footer__icon:hover,
-.footer__green:hover {
-  transition: transform 0.2s ease-in-out;
-  transform: scale(1.2) !important;
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.play-button {
+  transition: 2s;
 }
 
 .footer__right {
